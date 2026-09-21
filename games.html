@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shadow Rift | Games</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="index.html" class="logo">SHADOW RIFT</a>
+        <button class="menu-toggle" aria-label="Menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="store.html">Store</a>
+          <a href="games.html">Games</a>
+          <a href="contact.html">Support</a>
+        </nav>
+        <a href="store.html" class="btn btn-primary nav-btn">Buy now</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-banner">
+        <div class="container">
+          <h1>Featured games</h1>
+          <p>Discover action-packed worlds, team-based battles, and immersive multiplayer experiences.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="games-grid">
+            <article class="game-tile" tabindex="0" role="button" data-game-name="Shadow Rift" data-game-genre="Action RPG" data-game-rating="4.9/5" data-game-modes="PvP, co-op, solo missions" data-game-platform="PC · Windows 10/11" data-game-description="Enter a fractured battlefield where every decision changes the fight. Build your squad, unlock legendary gear, and compete across dynamic arenas.">
+              <div class="game-image game-image-rift"></div>
+              <div class="game-body">
+                <h4>Shadow Rift</h4>
+                <p>Action RPG with PvP and co-op modes.</p>
+              </div>
+            </article>
+
+            <article class="game-tile" tabindex="0" role="button" data-game-name="Neon Strike" data-game-genre="Tactical FPS" data-game-rating="4.7/5" data-game-modes="5v5, ranked, deathmatch" data-game-platform="PC · Online multiplayer" data-game-description="Move fast through a neon city, coordinate with your team, and master precise weapons in a competitive tactical shooter.">
+              <div class="game-image game-image-neon"></div>
+              <div class="game-body">
+                <h4>Neon Strike</h4>
+                <p>Fast tactical shooter with precision gunplay.</p>
+              </div>
+            </article>
+
+            <article class="game-tile" tabindex="0" role="button" data-game-name="Dark Protocol" data-game-genre="Stealth survival" data-game-rating="4.8/5" data-game-modes="Campaign, stealth, survival" data-game-platform="PC · Single-player" data-game-description="Hack your way through a hostile network, stay hidden from adaptive enemies, and uncover the secret behind the Dark Protocol.">
+              <div class="game-image game-image-pack"></div>
+              <div class="game-body">
+                <h4>Dark Protocol</h4>
+                <p>Survival challenge with stealth and hacking.</p>
+              </div>
+            </article>
+
+            <article class="game-tile" tabindex="0" role="button" data-game-name="Sky Raiders" data-game-genre="Open-world action" data-game-rating="4.6/5" data-game-modes="Aerial combat, exploration, raids" data-game-platform="PC · Co-op supported" data-game-description="Take to the skies in a massive open world filled with aerial battles, hidden islands, and high-risk raids for your crew.">
+              <div class="game-image game-image-world"></div>
+              <div class="game-body">
+                <h4>Sky Raiders</h4>
+                <p>Open-air aerial combat in a massive world.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Shadow Rift. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

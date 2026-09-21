@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Shadow Rift | Admin Dashboard</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="index.html" class="logo">SHADOW RIFT</a>
+        <a href="store.html" class="btn btn-ghost nav-btn">View storefront</a>
+      </div>
+    </header>
+
+    <main class="admin-main">
+      <div class="container">
+        <div class="admin-header">
+          <div>
+            <span class="eyebrow">Admin workspace</span>
+            <h1>Command center</h1>
+            <p>Monitor the storefront, orders, and player activity from one place.</p>
+          </div>
+          <a href="auth.html" class="btn btn-primary">Admin login</a>
+        </div>
+
+        <section class="admin-grid" aria-label="Store overview">
+          <article class="admin-stat">
+            <span>Total revenue</span>
+            <strong>$28,490</strong>
+            <small class="status-pill">+12.8% this month</small>
+          </article>
+          <article class="admin-stat">
+            <span>Orders</span>
+            <strong>1,248</strong>
+            <small class="status-pill">+84 today</small>
+          </article>
+          <article class="admin-stat">
+            <span>Active players</span>
+            <strong>42.8K</strong>
+            <small class="status-pill">Live now</small>
+          </article>
+          <article class="admin-stat">
+            <span>Products</span>
+            <strong>24</strong>
+            <small class="status-pill">3 low stock</small>
+          </article>
+        </section>
+
+        <section class="admin-layout">
+          <div class="admin-panel">
+            <h2>Recent orders</h2>
+            <div class="admin-table-wrap">
+              <table class="admin-table">
+                <thead>
+                  <tr>
+                    <th>Order</th>
+                    <th>Customer</th>
+                    <th>Total</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>#SR-2048</td>
+                    <td>Alex Morgan</td>
+                    <td>$49</td>
+                    <td><span class="status-pill">Completed</span></td>
+                  </tr>
+                  <tr>
+                    <td>#SR-2047</td>
+                    <td>Nina Kim</td>
+                    <td>$24</td>
+                    <td><span class="status-pill">Processing</span></td>
+                  </tr>
+                  <tr>
+                    <td>#SR-2046</td>
+                    <td>Omar Taylor</td>
+                    <td>$59</td>
+                    <td><span class="status-pill">Completed</span></td>
+                  </tr>
+                  <tr>
+                    <td>#SR-2045</td>
+                    <td>Jamie Lee</td>
+                    <td>$14</td>
+                    <td><span class="status-pill">Refunded</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <aside class="admin-panel">
+            <h2>Quick actions</h2>
+            <div class="admin-actions">
+              <a href="store.html" class="btn btn-ghost">Manage products</a>
+              <a href="cart.html" class="btn btn-ghost">Review orders</a>
+              <a href="contact.html" class="btn btn-ghost">Open support inbox</a>
+              <a href="auth.html" class="btn btn-ghost">Manage team access</a>
+            </div>
+          </aside>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Shadow Rift. Admin workspace.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

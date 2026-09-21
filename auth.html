@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shadow Rift | Login</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="index.html" class="logo">SHADOW RIFT</a>
+        <button class="menu-toggle" aria-label="Menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="store.html">Store</a>
+          <a href="product.html">Product</a>
+          <a href="games.html">Games</a>
+          <a href="cart.html">Cart</a>
+          <a href="contact.html">Support</a>
+          <a href="auth.html">Login</a>
+        </nav>
+        <a href="store.html" class="btn btn-primary nav-btn">Buy now</a>
+      </div>
+    </header>
+
+    <main class="auth-main">
+      <section class="section">
+        <div class="container auth-shell">
+          <div class="auth-visual">
+            <div class="auth-image"></div>
+          </div>
+
+          <div class="auth-panel">
+            <div class="tab-buttons">
+              <button class="tab-btn active" data-tab="login">Login</button>
+              <button class="tab-btn" data-tab="signup">Sign up</button>
+            </div>
+
+            <div class="tab-panel active" id="login-panel">
+              <form class="auth-form" data-auth-mode="login">
+                <label>
+                  Email
+                  <input type="email" placeholder="your@email.com" required />
+                </label>
+                <label>
+                  Password
+                  <input type="password" placeholder="••••••••" minlength="6" required />
+                </label>
+                <button type="submit" class="btn btn-primary full-width">Login</button>
+              </form>
+            </div>
+
+            <div class="tab-panel" id="signup-panel">
+              <form class="auth-form" data-auth-mode="signup">
+                <label>
+                  Full name
+                  <input type="text" placeholder="Your name" required />
+                </label>
+                <label>
+                  Email
+                  <input type="email" placeholder="your@email.com" required />
+                </label>
+                <label>
+                  Password
+                  <input type="password" placeholder="Create a password" minlength="6" required />
+                </label>
+                <button type="submit" class="btn btn-primary full-width">Create account</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Shadow Rift. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

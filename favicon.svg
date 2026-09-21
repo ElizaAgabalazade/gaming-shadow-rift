@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Shadow Rift icon">
+  <rect width="64" height="64" rx="14" fill="#0b1020"/>
+  <path d="M16 14h32v9H26v7h18c4 0 7 3 7 7v9c0 4-3 7-7 7H16v-9h25v-7H23c-4 0-7-3-7-7v-9c0-4 3-7 7-7Z" fill="#5eead4"/>
+  <path d="M32 8 38 20h-5l5 12-12-14h6Z" fill="#60a5fa"/>
+</svg>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shadow Rift | Product</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="index.html" class="logo">SHADOW RIFT</a>
+        <button class="menu-toggle" aria-label="Menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="store.html">Store</a>
+          <a href="product.html">Product</a>
+          <a href="games.html">Games</a>
+          <a href="cart.html">Cart</a>
+          <a href="contact.html">Support</a>
+          <a href="auth.html">Login</a>
+        </nav>
+        <a href="cart.html" class="btn btn-primary nav-btn">Cart (3)</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-banner">
+        <div class="container">
+          <h1>Shadow Rift Deluxe Edition</h1>
+          <p>Experience the complete battlefield with the ultimate premium pack, cosmetics, and early access rewards.</p>
+        </div>
+      </section>
+
+      <section class="section product-section">
+        <div class="container product-shell">
+          <div class="product-gallery">
+            <div class="product-gallery-main">
+              <img src="assets/rift-battle.svg" alt="Shadow Rift Deluxe Edition" />
+            </div>
+            <div class="product-thumbs">
+              <img src="assets/rift-battle.svg" alt="Game scene one" />
+              <img src="assets/neon-arena.svg" alt="Game scene two" />
+              <img src="assets/pack-collection.svg" alt="Game scene three" />
+              <img src="assets/world-explore.svg" alt="Game scene four" />
+            </div>
+          </div>
+
+          <div class="product-info">
+            <div class="product-badges">
+              <span>Top rated</span>
+              <span>Digital key</span>
+            </div>
+            <h2>Shadow Rift Deluxe Edition</h2>
+            <div class="rating-line">
+              <span class="stars">★★★★★</span>
+              <span>4.9/5 • 12,430 reviews</span>
+            </div>
+
+            <div class="price-row">
+              <div class="price-tag">$49</div>
+              <div class="compare-price">$69</div>
+            </div>
+
+            <p class="product-description">
+              Unlock the full battlefield experience with bonus cosmetics, early access battle pass, elite weapon skins, and special in-game currency.
+            </p>
+
+            <div class="buy-row">
+              <button class="btn btn-primary">Add to cart</button>
+              <button class="btn btn-ghost">Wishlist</button>
+            </div>
+
+            <ul class="feature-list">
+              <li>Full game + deluxe skins</li>
+              <li>Season pass included</li>
+              <li>Exclusive weapon set</li>
+              <li>Digital download instantly</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt-section">
+        <div class="container product-specs">
+          <div class="spec-box">
+            <h3>Included content</h3>
+            <ul>
+              <li>Base game</li>
+              <li>Deluxe weapon pack</li>
+              <li>Season pass token</li>
+              <li>Rare avatar frame</li>
+            </ul>
+          </div>
+
+          <div class="spec-box">
+            <h3>System compatibility</h3>
+            <ul>
+              <li>Windows 10 / 11</li>
+              <li>Steam / Epic access</li>
+              <li>Online multiplayer</li>
+              <li>Instant activation</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Related products</h2>
+            <p>More gear and packs for your next battle.</p>
+          </div>
+
+          <div class="related-grid">
+            <article class="product-card">
+              <img class="product-image" src="assets/pack-collection.svg" alt="Collector Pack artwork" />
+              <div class="product-body">
+                <h4>Battle Pass</h4>
+                <div class="product-meta">
+                  <span>Season pass</span>
+                  <strong>$24</strong>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <img class="product-image" src="assets/rift-battle.svg" alt="Shadow Bundle artwork" />
+              <div class="product-body">
+                <h4>Elite Skins</h4>
+                <div class="product-meta">
+                  <span>Cosmetics</span>
+                  <strong>$14</strong>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image"></div>
+              <div class="product-body">
+                <h4>Collector Pack</h4>
+                <div class="product-meta">
+                  <span>Limited edition</span>
+                  <strong>$39</strong>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image"></div>
+              <div class="product-body">
+                <h4>Shadow Bundle</h4>
+                <div class="product-meta">
+                  <span>Game + extras</span>
+                  <strong>$59</strong>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Shadow Rift. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
