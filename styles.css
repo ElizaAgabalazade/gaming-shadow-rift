@@ -393,11 +393,11 @@ textarea {
 }
 
 .image-two {
-  background-image: url('assets/neon-arena.svg');
+  background-image: url('assets/chess-strategy.svg');
 }
 
 .image-three {
-  background-image: url('assets/world-explore.svg');
+  background-image: url('assets/earth-world.svg');
 }
 
 .feature-copy {
@@ -1161,7 +1161,7 @@ textarea {
 }
 
 .image-news-three {
-  background-image: url('assets/world-explore.svg');
+  background-image: url('assets/earth-world.svg');
 }
 
 .tag {
@@ -1530,7 +1530,7 @@ textarea {
 
 .product-card:nth-child(4) .product-image,
 .game-tile:nth-child(4) .game-image {
-  background-image: url('assets/world-explore.svg');
+  background-image: url('assets/earth-world.svg');
 }
 
 .product-card .product-image-collector {
